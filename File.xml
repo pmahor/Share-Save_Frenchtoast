@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Share_And_Save(French Toast)" parallel="none">
+
+ 	<test name="chromeTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+		    <class name="com.immply.mainclass.ParallelBrowserSetup"></class>
+			<class name="com.immply.mainclass.FacebookShare"></class>
+			<class name="com.immply.mainclass.TwitterShare"></class>
+			<class name="com.immply.mainclass.EmailShare"></class>
+		</classes>
+	</test>
+	
+
+	<!-- <test name="firefoxTest">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			 <class name="com.immply.mainclass.ParallelBrowserSetup"></class>
+			<class name="com.immply.mainclass.FacebookShare"></class>
+			<class name="com.immply.mainclass.TwitterShare"></class>
+			<class name="com.immply.mainclass.EmailShare"></class>
+		</classes>
+	</test> -->
+	
+<!-- 	
+	<test name="IETest">
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+		 <class name="com.immply.mainclass.ParallelBrowserSetup"></class>
+			<class name="com.immply.mainclass.FacebookShare"></class>
+			<class name="com.immply.mainclass.TwitterShare"></class>
+			<class name="com.immply.mainclass.EmailShare"></class>
+		</classes>
+	</test> -->
+
+
+	<test name="Bitly">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.immply.mainclass.TestBitlyRun"></class>
+		</classes>
+	</test>
+
+</suite> 

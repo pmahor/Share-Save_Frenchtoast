@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Share_And_Save(French Toast)" duration-ms="311581" started-at="2017-09-22T06:01:34Z" finished-at="2017-09-22T06:06:45Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="174839" started-at="2017-09-22T06:01:34Z" finished-at="2017-09-22T06:04:29Z">
+      <class name="com.immply.mainclass.TwitterShare">
+        <test-method status="PASS" signature="TweetShare()[pri:4, instance:com.immply.mainclass.TwitterShare@93dd95]" name="TweetShare" duration-ms="21009" started-at="2017-09-22T11:33:05Z" finished-at="2017-09-22T11:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetShare -->
+        <test-method status="PASS" signature="TweetLoginPage()[pri:5, instance:com.immply.mainclass.TwitterShare@93dd95]" name="TweetLoginPage" duration-ms="46878" started-at="2017-09-22T11:33:26Z" finished-at="2017-09-22T11:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetLoginPage -->
+      </class> <!-- com.immply.mainclass.TwitterShare -->
+      <class name="com.immply.mainclass.FacebookShare">
+        <test-method status="PASS" signature="testWidget()[pri:1, instance:com.immply.mainclass.FacebookShare@14b1c02]" name="testWidget" duration-ms="25810" started-at="2017-09-22T11:31:56Z" finished-at="2017-09-22T11:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWidget -->
+        <test-method status="PASS" signature="testFBLoginPage()[pri:2, instance:com.immply.mainclass.FacebookShare@14b1c02]" name="testFBLoginPage" duration-ms="12035" started-at="2017-09-22T11:32:22Z" finished-at="2017-09-22T11:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFBLoginPage -->
+        <test-method status="PASS" signature="testFBShareWindow()[pri:3, instance:com.immply.mainclass.FacebookShare@14b1c02]" name="testFBShareWindow" duration-ms="31342" started-at="2017-09-22T11:32:34Z" finished-at="2017-09-22T11:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFBShareWindow -->
+      </class> <!-- com.immply.mainclass.FacebookShare -->
+      <class name="com.immply.mainclass.EmailShare">
+        <test-method status="PASS" signature="testEmailShare()[pri:6, instance:com.immply.mainclass.EmailShare@1622fdf]" name="testEmailShare" duration-ms="15848" started-at="2017-09-22T11:34:13Z" finished-at="2017-09-22T11:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailShare -->
+      </class> <!-- com.immply.mainclass.EmailShare -->
+      <class name="com.immply.mainclass.ParallelBrowserSetup">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.immply.mainclass.ParallelBrowserSetup@d62f43]" name="setup" is-config="true" duration-ms="21875" started-at="2017-09-22T11:31:34Z" finished-at="2017-09-22T11:31:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.immply.mainclass.ParallelBrowserSetup -->
+    </test> <!-- chromeTest -->
+    <test name="Bitly" duration-ms="136722" started-at="2017-09-22T06:04:29Z" finished-at="2017-09-22T06:06:45Z">
+      <class name="com.immply.mainclass.TestBitlyRun">
+        <test-method status="PASS" signature="testFBPage()[pri:7, instance:com.immply.mainclass.TestBitlyRun@153f17c]" name="testFBPage" duration-ms="45735" started-at="2017-09-22T11:34:29Z" finished-at="2017-09-22T11:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFBPage -->
+        <test-method status="PASS" signature="TweetPage()[pri:8, instance:com.immply.mainclass.TestBitlyRun@153f17c]" name="TweetPage" duration-ms="45373" started-at="2017-09-22T11:35:14Z" finished-at="2017-09-22T11:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetPage -->
+        <test-method status="PASS" signature="testGmailPage()[pri:9, instance:com.immply.mainclass.TestBitlyRun@153f17c]" name="testGmailPage" duration-ms="45607" started-at="2017-09-22T11:36:00Z" finished-at="2017-09-22T11:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailPage -->
+      </class> <!-- com.immply.mainclass.TestBitlyRun -->
+    </test> <!-- Bitly -->
+  </suite> <!-- Share_And_Save(French Toast) -->
+</testng-results>

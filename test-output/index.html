@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Share_And_Save(French_Toast)">
+              <span class="suite-name border-passed">Share_And_Save(French Toast)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Share_And_Save(French_Toast)">
+                    <span>D:\Pankaj BACKUP\Selenium\Workspace\Share_And_Save(French Toast)\File.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Share_And_Save(French_Toast)">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Share_And_Save(French_Toast)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Share_And_Save(French_Toast)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Share_And_Save(French_Toast)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Share_And_Save(French_Toast)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Share_And_Save(French_Toast)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Share_And_Save(French_Toast)" class="hide-methods passed suite-Share_And_Save(French_Toast)"> (hide)</a> <!-- hide-methods passed suite-Share_And_Save(French_Toast) -->
+                      <a href="#" panel-name="suite-Share_And_Save(French_Toast)" class="show-methods passed suite-Share_And_Save(French_Toast)"> (show)</a> <!-- show-methods passed suite-Share_And_Save(French_Toast) -->
+                    </span>
+                    <div class="method-list-content passed suite-Share_And_Save(French_Toast)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.TwitterShare" hash-for-method="TweetLoginPage">TweetLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.TestBitlyRun" hash-for-method="TweetPage">TweetPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.TwitterShare" hash-for-method="TweetShare">TweetShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.EmailShare" hash-for-method="testEmailShare">testEmailShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.FacebookShare" hash-for-method="testFBLoginPage">testFBLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.TestBitlyRun" hash-for-method="testFBPage">testFBPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.FacebookShare" hash-for-method="testFBShareWindow">testFBShareWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.TestBitlyRun" hash-for-method="testGmailPage">testGmailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Share_And_Save(French_Toast)" title="com.immply.mainclass.FacebookShare" hash-for-method="testWidget">testWidget</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Share_And_Save(French_Toast) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Share_And_Save(French_Toast)" class="panel Share_And_Save(French_Toast)">
+          <div class="suite-Share_And_Save(French_Toast)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.immply.mainclass.TwitterShare</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TweetLoginPage">
+                  </a> <!-- TweetLoginPage -->
+                  <span class="method-name">TweetLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TweetShare">
+                  </a> <!-- TweetShare -->
+                  <span class="method-name">TweetShare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Share_And_Save(French_Toast)-class-passed -->
+          <div class="suite-Share_And_Save(French_Toast)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.immply.mainclass.TestBitlyRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TweetPage">
+                  </a> <!-- TweetPage -->
+                  <span class="method-name">TweetPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFBPage">
+                  </a> <!-- testFBPage -->
+                  <span class="method-name">testFBPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGmailPage">
+                  </a> <!-- testGmailPage -->
+                  <span class="method-name">testGmailPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Share_And_Save(French_Toast)-class-passed -->
+          <div class="suite-Share_And_Save(French_Toast)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.immply.mainclass.FacebookShare</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFBLoginPage">
+                  </a> <!-- testFBLoginPage -->
+                  <span class="method-name">testFBLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFBShareWindow">
+                  </a> <!-- testFBShareWindow -->
+                  <span class="method-name">testFBShareWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWidget">
+                  </a> <!-- testWidget -->
+                  <span class="method-name">testWidget</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Share_And_Save(French_Toast)-class-passed -->
+          <div class="suite-Share_And_Save(French_Toast)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.immply.mainclass.EmailShare</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmailShare">
+                  </a> <!-- testEmailShare -->
+                  <span class="method-name">testEmailShare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Share_And_Save(French_Toast)-class-passed -->
+        </div> <!-- panel Share_And_Save(French_Toast) -->
+        <div panel-name="test-xml-Share_And_Save(French_Toast)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Pankaj BACKUP\Selenium\Workspace\Share_And_Save(French Toast)\File.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Share_And_Save(French Toast)&quot; parallel=&quot;none&quot;&gt;
+  &lt;test name=&quot;chromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.immply.mainclass.ParallelBrowserSetup&quot;/&gt;
+      &lt;class name=&quot;com.immply.mainclass.FacebookShare&quot;/&gt;
+      &lt;class name=&quot;com.immply.mainclass.TwitterShare&quot;/&gt;
+      &lt;class name=&quot;com.immply.mainclass.EmailShare&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chromeTest --&gt;
+  &lt;test name=&quot;Bitly&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.immply.mainclass.TestBitlyRun&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Bitly --&gt;
+&lt;/suite&gt; &lt;!-- Share_And_Save(French Toast) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Share_And_Save(French_Toast)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Share_And_Save(French Toast)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chromeTest (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Bitly (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Share_And_Save(French_Toast)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Share_And_Save(French Toast)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Share_And_Save(French_Toast)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Share_And_Save(French Toast)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Share_And_Save(French_Toast)');
+function tableData_Share_And_Save(French_Toast)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TweetLoginPage')
+data.setCell(0, 2, 'com.immply.mainclass.TwitterShare')
+data.setCell(0, 3, 46878);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testFBPage')
+data.setCell(1, 2, 'com.immply.mainclass.TestBitlyRun')
+data.setCell(1, 3, 45735);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGmailPage')
+data.setCell(2, 2, 'com.immply.mainclass.TestBitlyRun')
+data.setCell(2, 3, 45607);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TweetPage')
+data.setCell(3, 2, 'com.immply.mainclass.TestBitlyRun')
+data.setCell(3, 3, 45373);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testFBShareWindow')
+data.setCell(4, 2, 'com.immply.mainclass.FacebookShare')
+data.setCell(4, 3, 31342);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testWidget')
+data.setCell(5, 2, 'com.immply.mainclass.FacebookShare')
+data.setCell(5, 3, 25810);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TweetShare')
+data.setCell(6, 2, 'com.immply.mainclass.TwitterShare')
+data.setCell(6, 3, 21009);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testEmailShare')
+data.setCell(7, 2, 'com.immply.mainclass.EmailShare')
+data.setCell(7, 3, 15848);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testFBLoginPage')
+data.setCell(8, 2, 'com.immply.mainclass.FacebookShare')
+data.setCell(8, 3, 12035);
+window.suiteTableData['Share_And_Save(French_Toast)']= { tableData: data, tableDiv: 'times-div-Share_And_Save(French_Toast)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Share_And_Save(French_Toast)">
+              </div> <!-- times-div-Share_And_Save(French_Toast) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Share_And_Save(French_Toast)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Share_And_Save(French Toast)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Share_And_Save(French_Toast)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Share_And_Save(French_Toast)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.immply.mainclass.ParallelBrowserSetup</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.immply.mainclass.FacebookShare</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testWidget</span>
+                <span class="method-start">21885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFBLoginPage</span>
+                <span class="method-start">47697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFBShareWindow</span>
+                <span class="method-start">59735 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.immply.mainclass.TwitterShare</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TweetShare</span>
+                <span class="method-start">91083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TweetLoginPage</span>
+                <span class="method-start">112097 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.immply.mainclass.EmailShare</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testEmailShare</span>
+                <span class="method-start">158978 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.immply.mainclass.TestBitlyRun</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFBPage</span>
+                <span class="method-start">174850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TweetPage</span>
+                <span class="method-start">220586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGmailPage</span>
+                <span class="method-start">265961 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
